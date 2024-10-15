@@ -14,22 +14,26 @@
     <form action="https://buttondown.com/api/emails/embed-subscribe/focustivity" method="post"
       class="embeddable-buttondown-form">
       <p>
-        <label for="email">Email</label>
+        <label for="name">Your Name</label><br>
+        <input type="name" name="name" placeholder="" />
+      </p>
+      <p>
+        <label for="email">Your Email Address</label><br>
         <input type="email" name="email" placeholder="you@example.com" />
       </p>
-      <p>Which tags do you want to subscribe to?</p>
+      <p><label>Which tags do you want to subscribe to?</label></p>
       <p>
 
-        <input type="checkbox" id="Blog" name="tag" value="Blog" /><label for="Blog">Blog Posts (Send
+        <input type="checkbox" id="Blog" name="tag" value="Blog" class="custom-checkbox" checked /><label for="Blog">Blog Posts (Send
           immediately)</label><br>
 
-        <input type="checkbox" id="Notes" name="tag" value="Notes" /> <label for="Notes">Notes (Sent
+        <input type="checkbox" id="Notes" name="tag" value="Notes" class="custom-checkbox" checked/><label for="Notes">Notes (Sent
           immediately)</label><br>
 
-        <input type="checkbox" id="WeekNotes" name="tag" value="Week Notes" /><label for="WeekNotes">Week Notes (Sent
+        <input type="checkbox" id="WeekNotes" name="tag" value="Week Notes" class="custom-checkbox" checked/><label for="WeekNotes">Week Notes (Sent
           Weekly)</label><br>
 
-        <input type="checkbox" id="Micro" name="tag" value="Micro" /><label for="Micro">Micro Posts (Sent
+        <input type="checkbox" id="Micro" name="tag" value="Micro" class="custom-checkbox" checked/><label for="Micro">Micro Posts (Sent
           Weekly)</label>
       </p>
       <p>

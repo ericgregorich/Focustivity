@@ -4,6 +4,33 @@ body {
 }
 
 #custom-content {
-    width: 800;
+    width: 340px;
     margin: auto;
+}
+
+a {
+    color: #05658f;
+}
+
+label {
+    color: #333;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+input[type=email],input[type=name] {
+    padding: 5px;
+    width: 100%;
+}
+
+input[type=submit] {
+    padding: 10px;
+    background-color: #05658f;
+    color:white;
+    border:none;
+}
+
+input.custom-checkbox {
+    cursor: pointer;
+    accent-color: #05658f;
 }
