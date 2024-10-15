@@ -18,7 +18,8 @@ label {
     line-height: 25px;
 }
 
-input[type=email],input[type=name] {
+input[type=email],
+input[type=name] {
     padding: 5px;
     width: 100%;
 }
@@ -26,11 +27,19 @@ input[type=email],input[type=name] {
 input[type=submit] {
     padding: 10px;
     background-color: #05658f;
-    color:white;
-    border:none;
+    color: white;
+    border: none;
 }
 
-input.custom-checkbox {
+input[type=submit]:hover {
     cursor: pointer;
+}
+
+input[type=checkbox] {
+
     accent-color: #05658f;
+}
+
+input[type=checkbox]:hover {
+    cursor: pointer;
 }
