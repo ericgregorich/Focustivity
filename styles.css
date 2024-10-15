@@ -19,7 +19,7 @@ label {
 }
 
 input[type=email],
-input[type=name] {
+input[type=text] {
     padding: 5px;
     width: 100%;
 }
