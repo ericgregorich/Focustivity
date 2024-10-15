@@ -4,6 +4,6 @@ body {
 }
 
 #custom-content {
-    max-width: 600;
+    width: 800;
     margin: auto;
 }
