@@ -13,20 +13,29 @@
     <h1>Focustivity Newsletter</h1>
     <form action="https://buttondown.com/api/emails/embed-subscribe/focustivity" method="post"
       class="embeddable-buttondown-form">
-      <label for="email">Email</label>
-      <input type="email" name="email" placeholder="you@example.com" />
-      <br />
-  
-      <input type="checkbox" id="Blog" name="tag" value="Blog" /><label for="Blog">Blog Posts (Send immediately)</label>
-  
-      <input type="checkbox" id="WeekNotes" name="tag" value="Week Notes" /><label for="WeekNotes">Week Notes (Sent Weekly)</label>
-  
-      <input type="checkbox" id="Notes" name="tag" value="Notes" /> <label for="Notes">Notes (Sent immediately)</label>
-  
-      <input type="checkbox" id="Micro" name="tag" value="Micro" /><label for="Micro">Micro Posts (Sent Weekly)</label>
-      <br />
-      <input type="hidden" value="1" name="embed" />
-      <input type="submit" value="Subscribe" />
+      <p>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="you@example.com" />
+      </p>
+      <p>Which tags do you want to subscribe to?</p>
+      <p>
+
+        <input type="checkbox" id="Blog" name="tag" value="Blog" /><label for="Blog">Blog Posts (Send
+          immediately)</label><br>
+
+        <input type="checkbox" id="Notes" name="tag" value="Notes" /> <label for="Notes">Notes (Sent
+          immediately)</label><br>
+
+        <input type="checkbox" id="WeekNotes" name="tag" value="Week Notes" /><label for="WeekNotes">Week Notes (Sent
+          Weekly)</label><br>
+
+        <input type="checkbox" id="Micro" name="tag" value="Micro" /><label for="Micro">Micro Posts (Sent
+          Weekly)</label>
+      </p>
+      <p>
+        <input type="hidden" value="1" name="embed" />
+        <input type="submit" value="Subscribe" />
+      </p>
       <p>
         <a href="https://buttondown.com" target="_blank">
           Powered by Buttondown.
