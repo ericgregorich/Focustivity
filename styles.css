@@ -4,7 +4,8 @@ body {
 }
 
 #custom-content {
-    width: 340px;
+    min-width: 350px;
+    max-width: 600px;
     margin: auto;
 }
 
@@ -21,7 +22,7 @@ label {
 input[type=email],
 input[type=text] {
     padding: 5px;
-    width: 100%;
+    width: 96%;
 }
 
 input[type=submit] {
